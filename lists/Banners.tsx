@@ -1,5 +1,11 @@
-import { SimpleBannerDark, SimpleBannerWhite } from "@/data"
 import { SimpleBanner, FlatBanner } from "@/ui/banners"
+
+import { 
+  SimpleBannerDark, 
+  SimpleBannerWhite, 
+  FlatBannerDark, 
+  FlatBannerWhite 
+} from "@/data"
 
 const Banners = [
   {
@@ -17,13 +23,13 @@ const Banners = [
   {
     title: "Flat Banner Flag (White Theme)",
     component: <FlatBanner mode='light' />,
-    code: SimpleBannerDark,
+    code: FlatBannerWhite,
     id: 'flat-banner-with-flag-white-theme'
   },
   {
     title: "Flat Banner Flag (Dark Theme)",
     component: <FlatBanner mode='dark' />,
-    code: SimpleBannerDark,
+    code: FlatBannerDark,
     id: 'flat-banner-with-flag-dark-theme'
   },
 ]
